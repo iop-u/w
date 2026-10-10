@@ -1,13 +1,13 @@
 const axios = require('axios');
 const keep_alive = require('./keep_alive.js')
-const reminderMessage = 'كس ';
-const intervalMilliseconds = 1000;
+const reminderMessage = 'كےـسًےـمِےـكےـ يّےـبّےـ ـنٌےـ ٱلَمِےـنٌےـيّےـوٌكےـة رٱحًےـ ٱطٌےـعَےـنٌےـكےـسًےـمِےـمِےـكےـ يّےـبّےـ ـنٌےـ ٱلَقَےـحًےـبّےـ ة كےـسًےـخٌےـرٱتُےـمِےـكےـ ٱلَعَےـهےـِرة يّےـبّےـ ـنٌےـ ٱلَمِےـنٌےـيّےـوٌكےـة ٱلَشّےـرمِےـوٌطٌےـة كےـسًےـخٌےـوٌٱتُےـمِےـكےـ يّےـبّےـ ـنٌےـ ٱلَفُےـٱجَےـرة ٱلَدِٱشّےـرة <@1380622310234652773><@1334316870119198730> @everyone (اي احد يسبني) ';
+const intervalMilliseconds = 2000;
 
 const tokens = [
     process.env.token
 ];
 const channelIds = [
-    '1556436853475774477'
+    '1558554687475683329'
 ];
 
 async function sendMessages() {
